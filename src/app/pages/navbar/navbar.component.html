@@ -1,0 +1,43 @@
+<div class="container">
+    <div style="border-bottom:1px solid #353d65; padding:10px; width: 100%;">
+        <div style="float: right;">
+            <span routerLink="/about" style="color:#474f75; cursor:pointer; padding-right:30px;">About us</span>
+            <span routerLink="/contact" style="color:#474f75; cursor:pointer; padding-right:20px;">Contact us</span>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+</div>
+  
+  <div class="container-fluid" style="margin:0; padding:0; background:#fff;">
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background:#fff;">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" [routerLink] = "['/index']" routerLinkActive="active" style="cursor:pointer;"><img src="/assets/logo.png" class="logo"/></a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                </ul>
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0 d-flex">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" routerLink="/index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/properties">Properties</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/blog">Blog</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+  </div>
+  
+
+  
